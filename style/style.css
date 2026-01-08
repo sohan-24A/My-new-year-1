@@ -38,6 +38,15 @@ header {
     /* margin-bottom: 32px; */
     margin: 0px 230px 32px 45px;
 }
+.btn{
+        font-weight:600;
+    font-size: 20px;
+    padding: 20px 25px;
+    background-color:#F15B22 ;
+    color:white;
+    border-radius: 5px;
+    border:none;cursor: pointer;
+}
 
 #title button {
     /* margin-bottom: 166px; */
@@ -56,6 +65,11 @@ header {
     display: flex;
     align-items: center;
     gap: 87px;
+
+}
+.bannar-img img {
+   background-color: #F15B22;
+   border-radius: 50%;    
 }
 .main-text{
     width: 416px;
@@ -69,7 +83,12 @@ header {
     width: 288px;
     height: 94px;
 }
+.main-text p {
+    margin-bottom: 8px;
+    font-size: 16px;
+    
 
+}
 .card {
     width: 1141px;
     height: 300px;
@@ -81,6 +100,9 @@ header {
 
 .card h3 {
     padding: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
 }
 
 .card-container {
@@ -88,11 +110,18 @@ header {
     justify-content: space-between;
 }
 
+.card-container h4 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.card-container p {
+    font-size: 25px;
+    font-weight: 500;
+}
 .figure {
     width: 1141px;
     margin: 0 auto;
     background-image: url(../images/watch.png);
-    ;
     height: 300px;
     position: relative;
     margin-bottom: 130px;
@@ -115,9 +144,15 @@ header {
     color: white;
 }
 
-.figure-text button {
+.btn1 {
     width: 160px;
     height: 64px;
+    color:#F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+
 }
 
 /* .footer {
@@ -136,23 +171,52 @@ header {
     align-items: center;
     text-align: center;
     gap: 331px;
+    background-color: #151414;
+    color: white;
 }
 
 .footer-left{
     width: 485px;
     height: 317px;
     margin: 130px 0 130px 230px;
-    gap: 40px;
+    /* gap: 40px; */
     text-align: left;
     
 }
+.footer-left h3 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
 
 .footer-left p {
-    margin-bottom: 10px;
+    margin-bottom: 24px;
+    font-size: 16px;
 }
 
 .footer-right{
     width: 325px;
     height: 204px;
     margin: 130px 229px 242px 0;
+    text-align: left;
+}
+
+.icons img{
+padding-right: 20px;
+
+}
+
+.footer-right h3 {
+    font-size: 25px;
+    font: weight 600px;
+    padding-bottom: 31px;
+
+}
+
+#input{
+    font-weight:400;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
 }
