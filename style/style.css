@@ -57,6 +57,18 @@ header {
     align-items: center;
     gap: 87px;
 }
+.main-text{
+    width: 416px;
+    height: 400px;
+
+}
+.main-text h3 {
+    margin-bottom: 24px;
+    font-size: 40px;
+    font-weight: bold;
+    width: 288px;
+    height: 94px;
+}
 
 .card {
     width: 1141px;
@@ -83,6 +95,7 @@ header {
     ;
     height: 300px;
     position: relative;
+    margin-bottom: 130px;
 }
 
 .figure-text {
@@ -105,4 +118,41 @@ header {
 .figure-text button {
     width: 160px;
     height: 64px;
+}
+
+/* .footer {
+    display: flex;
+    width:1600px;
+    height: 577px;
+    margin: 0 auto;
+
+} */
+
+.footer-child{
+    width: 1600px;
+    margin: 0 auto;
+    height: 577px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 331px;
+}
+
+.footer-left{
+    width: 485px;
+    height: 317px;
+    margin: 130px 0 130px 230px;
+    gap: 40px;
+    text-align: left;
+    
+}
+
+.footer-left p {
+    margin-bottom: 10px;
+}
+
+.footer-right{
+    width: 325px;
+    height: 204px;
+    margin: 130px 229px 242px 0;
 }
